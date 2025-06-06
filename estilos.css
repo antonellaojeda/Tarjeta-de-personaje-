@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fondo {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #ffe1ec, #ffc8dd);
+}
+
+.tarjeta {
+  width: 280px;
+  padding: 20px;
+  border-radius: 25px;
+  text-align: center;
+  background: #fff;
+  font-family: 'Fredoka', sans-serif;
+
+  /* Sombra #17 de https://getcssscan.com/css-box-shadow-examples */
+  box-shadow: 10px 8px 20px rgba(0, 0, 0, 0.5), 
+              0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.tarjeta h1 {
+  margin-bottom: 12px;
+  font-size: 26px;
+  color: #e75480;
+}
+
+.tarjeta img {
+  width: 130px;
+  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.2));
+}
+
+.tarjeta p {
+  margin: 8px 0;
+  font-size: 16px;
+}
